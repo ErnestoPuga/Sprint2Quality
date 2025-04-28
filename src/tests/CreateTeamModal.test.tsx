@@ -1,7 +1,7 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import CreateTeamModal from '..views/./CreateTeamModal';
+import CreateTeamModal from '../components/CreateTeamModal';
 import { rest } from 'msw';
 import { setupServer } from 'msw/node';
 

@@ -5,6 +5,7 @@ import DashboardManager from '../views/DashboardManager';
 import { rest } from 'msw';
 import { setupServer } from 'msw/node';
 
+
 // Mock de componentes hijos para simplificar las pruebas
 vi.mock('../components/Navbar', () => ({
   default: ({ pageTitle }: { pageTitle: string }) => <div data-testid="navbar">Navbar - {pageTitle}</div>
